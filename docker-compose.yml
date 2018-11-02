@@ -6,6 +6,8 @@ services:
     stop_grace_period: 30s
     deploy:
       replicas: 2
+      update_config:
+        failure_action: rollback
       resources:
         limits:
           cpus: "0.1"
