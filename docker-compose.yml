@@ -5,7 +5,7 @@ services:
     image: heenatalreja/jenkins-pipeline:latest
     stop_grace_period: 30s
     deploy:
-      replicas: 2
+      replicas: 5
       update_config:
         failure_action: rollback
       resources:
