@@ -15,4 +15,4 @@ services:
       restart_policy:
         condition: on-failure
     ports:
-      - "8090:8080"   
+      - "8092:8080"   
